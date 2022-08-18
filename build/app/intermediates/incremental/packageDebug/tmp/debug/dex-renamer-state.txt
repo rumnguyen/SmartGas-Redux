@@ -1,0 +1,10 @@
+#Thu Aug 18 08:40:39 ICT 2022
+base.2=/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/app/intermediates/dex/debug/mergeProjectDexDebug/classes3.dex
+path.2=classes3.dex
+base.1=/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/app/intermediates/dex/debug/mergeProjectDexDebug/classes2.dex
+path.1=classes2.dex
+base.0=/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/app/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

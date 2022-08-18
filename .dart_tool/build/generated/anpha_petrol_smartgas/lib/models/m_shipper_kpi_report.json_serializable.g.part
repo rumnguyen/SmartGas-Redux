@@ -1,0 +1,19 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MShipperKpiReport _$MShipperKpiReportFromJson(Map<String, dynamic> json) =>
+    MShipperKpiReport(
+      deliveryStatus: json['delivery_status'] as int?,
+      totalMoney: json['total_money'] as int?,
+      totalOrder: json['total_order'] as int?,
+      totalQuantity: json['total_quantity'] as int?,
+    );
+
+Map<String, dynamic> _$MShipperKpiReportToJson(MShipperKpiReport instance) =>
+    <String, dynamic>{
+      'delivery_status': instance.deliveryStatus,
+      'total_order': instance.totalOrder,
+      'total_quantity': instance.totalQuantity,
+      'total_money': instance.totalMoney,
+    };

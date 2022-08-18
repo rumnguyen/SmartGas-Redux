@@ -1,0 +1,24 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MOrderLog _$MOrderLogFromJson(Map<String, dynamic> json) => MOrderLog()
+  ..id = json['id'] as int?
+  ..orderId = json['order_id'] as int?
+  ..status = json['status'] as String?
+  ..param = json['param'] as String?
+  ..createdAt = unixToDateTime(json['created_at'] as int?)
+  ..staff = json['staff'] == null
+      ? null
+      : MUser.fromJson(json['staff'] as Map<String, dynamic>)
+  ..type = json['type'] as String?;
+
+Map<String, dynamic> _$MOrderLogToJson(MOrderLog instance) => <String, dynamic>{
+      'id': instance.id,
+      'order_id': instance.orderId,
+      'status': instance.status,
+      'param': instance.param,
+      'created_at': dtToUnix(instance.createdAt),
+      'staff': instance.staff,
+      'type': instance.type,
+    };

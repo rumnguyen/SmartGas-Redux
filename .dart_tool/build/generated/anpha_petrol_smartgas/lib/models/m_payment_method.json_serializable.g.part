@@ -1,0 +1,28 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MPaymentMethod _$MPaymentMethodFromJson(Map<String, dynamic> json) =>
+    MPaymentMethod()
+      ..id = json['id'] as int?
+      ..createdBy = json['createdBy'] as int?
+      ..updatedBy = json['updatedBy'] as int?
+      ..warehouseId = json['warehouseId'] as int?
+      ..createdAt = unixToDateTime(json['createdAt'] as int?)
+      ..bankAccount = json['bankAccount'] as String?
+      ..isTransfer = json['isTransfer'] as bool?
+      ..isActive = json['isActive'] as bool?
+      ..displayName = json['displayName'] as String?;
+
+Map<String, dynamic> _$MPaymentMethodToJson(MPaymentMethod instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'createdBy': instance.createdBy,
+      'updatedBy': instance.updatedBy,
+      'warehouseId': instance.warehouseId,
+      'createdAt': dtToUnix(instance.createdAt),
+      'bankAccount': instance.bankAccount,
+      'isTransfer': instance.isTransfer,
+      'isActive': instance.isActive,
+      'displayName': instance.displayName,
+    };

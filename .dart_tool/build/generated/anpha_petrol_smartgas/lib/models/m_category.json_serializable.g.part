@@ -1,0 +1,10 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MCategory _$MCategoryFromJson(Map<String, dynamic> json) =>
+    MCategory()..isGift = json['IsGift'] as bool?;
+
+Map<String, dynamic> _$MCategoryToJson(MCategory instance) => <String, dynamic>{
+      'IsGift': instance.isGift,
+    };

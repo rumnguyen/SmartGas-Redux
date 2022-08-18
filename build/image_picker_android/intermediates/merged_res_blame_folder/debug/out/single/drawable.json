@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/res/drawable/notification_bg_low.xml"
+    }
+]

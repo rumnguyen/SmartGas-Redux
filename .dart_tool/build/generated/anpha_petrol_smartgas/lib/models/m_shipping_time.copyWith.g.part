@@ -1,0 +1,17 @@
+// **************************************************************************
+// CopyWithGenerator
+// **************************************************************************
+
+extension MShippingTimeCopyWith on MShippingTime {
+  MShippingTime copyWith({
+    DateTime? date,
+    int? id,
+    MShiftItem? shift,
+  }) {
+    return MShippingTime(
+      date: date ?? this.date,
+      id: id ?? this.id,
+      shift: shift ?? this.shift,
+    );
+  }
+}

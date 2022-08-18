@@ -1,0 +1,95 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MOrder _$MOrderFromJson(Map<String, dynamic> json) => MOrder(
+      id: json['id'] as int?,
+      code: json['code'] as String?,
+      deliveryStatus: json['delivery_status'] as int?,
+      accountLocation: json['account_location'] as String?,
+      accountName: json['account_name'] as String?,
+      phoneNumber: json['phone_number'] as String?,
+      shipperName: json['shipper_name'] as String?,
+      shipperId: json['shipper_id'] as int?,
+      shipperPhoneNumber: json['shipper_phone_number'] as String?,
+    )
+      ..productId = json['product_id'] as int?
+      ..productName = json['product_name'] as String?
+      ..totalMoney = json['total_money'] as int?
+      ..totalBags = json['total_bag'] as int?
+      ..accountProvinceId = json['account_province_id'] as int?
+      ..accountDistrictId = json['account_district_id'] as int?
+      ..accountWardId = json['account_ward_id'] as int?
+      ..warehouseId = json['warehouse_id'] as int?
+      ..quantity = json['quantity'] as int?
+      ..quantityDelivery = json['quantity_delivery'] as int?
+      ..dateOfDelivery = unixToDateTime(json['date_of_delivery'] as int?)
+      ..shiftOfDelivery = json['shift_of_delivery'] as int?
+      ..status = json['status'] as int?
+      ..fromDate = unixToDateTime(json['from_date'] as int?)
+      ..shift = json['shift'] as int?
+      ..deliveryType = json['delivery_type'] as int?
+      ..deliveryTime = json['delivery_time']
+      ..approveStatus = json['approve_status'] as int?
+      ..requestBackBag = json['request_back_bag'] as int?
+      ..returnBags = json['return_bag'] as int?
+      ..totalSubTax = json['total_sub_tax'] as int?
+      ..totalRewardPoint = json['total_reward_point'] as int?
+      ..totalGiftMoney = json['total_gift_money'] as int?
+      ..requestCount = json['request_count'] as int?
+      ..updatedAt = unixToDateTime(json['update_at'] as int?)
+      ..pictures = json['pictures'] as String?
+      ..paymentMethodId = json['payment_method_id'] as int?
+      ..actualMoney = json['actual_money'] as int?
+      ..totalBagDelivery = json['total_bag_delivery'] as int?
+      ..gifts = (json['gifts'] as List<dynamic>?)
+          ?.map((e) => MGift.fromJson(e as Map<String, dynamic>))
+          .toList()
+      ..isRetail = json['is_retail'] as bool?
+      ..note = json['note'] as String?
+      ..deliveryFailedParam = json['delivery_fail_param'] as String?;
+
+Map<String, dynamic> _$MOrderToJson(MOrder instance) => <String, dynamic>{
+      'id': instance.id,
+      'code': instance.code,
+      'product_id': instance.productId,
+      'product_name': instance.productName,
+      'total_money': instance.totalMoney,
+      'total_bag': instance.totalBags,
+      'account_name': instance.accountName,
+      'account_province_id': instance.accountProvinceId,
+      'account_district_id': instance.accountDistrictId,
+      'account_ward_id': instance.accountWardId,
+      'account_location': instance.accountLocation,
+      'warehouse_id': instance.warehouseId,
+      'phone_number': instance.phoneNumber,
+      'quantity': instance.quantity,
+      'quantity_delivery': instance.quantityDelivery,
+      'date_of_delivery': dtToUnix(instance.dateOfDelivery),
+      'shift_of_delivery': instance.shiftOfDelivery,
+      'status': instance.status,
+      'from_date': dtToUnix(instance.fromDate),
+      'shift': instance.shift,
+      'delivery_type': instance.deliveryType,
+      'delivery_time': instance.deliveryTime,
+      'approve_status': instance.approveStatus,
+      'request_back_bag': instance.requestBackBag,
+      'return_bag': instance.returnBags,
+      'total_sub_tax': instance.totalSubTax,
+      'total_reward_point': instance.totalRewardPoint,
+      'total_gift_money': instance.totalGiftMoney,
+      'request_count': instance.requestCount,
+      'update_at': dtToUnix(instance.updatedAt),
+      'pictures': instance.pictures,
+      'payment_method_id': instance.paymentMethodId,
+      'actual_money': instance.actualMoney,
+      'total_bag_delivery': instance.totalBagDelivery,
+      'gifts': instance.gifts,
+      'is_retail': instance.isRetail,
+      'delivery_status': instance.deliveryStatus,
+      'note': instance.note,
+      'delivery_fail_param': instance.deliveryFailedParam,
+      'shipper_name': instance.shipperName,
+      'shipper_id': instance.shipperId,
+      'shipper_phone_number': instance.shipperPhoneNumber,
+    };

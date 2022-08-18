@@ -1,0 +1,44 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MShippingItem _$MShippingItemFromJson(Map<String, dynamic> json) =>
+    MShippingItem()
+      ..id = json['id'] as int?
+      ..shippingCode = json['shipping_code'] as String?
+      ..listOrderId = json['list_order_id'] as String?
+      ..warehouseId = json['warehouse_id'] as int?
+      ..deliveryType = json['delivery_type'] as int?
+      ..shipperId = json['shipper_id'] as int?
+      ..shipperSubmittedAt =
+          unixToDateTime(json['shipper_submitted_at'] as int?)
+      ..shipperConfirmedAt =
+          unixToDateTime(json['shipper_confirmed_at'] as int?)
+      ..paymentMethodId = json['payment_method_id'] as int?
+      ..totalMoney = json['total_money'] as int?
+      ..createdAt = unixToDateTime(json['created_at'] as int?)
+      ..updatedAt = unixToDateTime(json['updated_at'] as int?)
+      ..shipperPhoneNumber = json['shipper_phone_number'] as String?
+      ..shipperName = json['shipper_display_name'] as String?
+      ..managerConfirm = json['manager_confirm'] as bool?
+      ..shipperConfirm = json['shipper_confirm'] as bool?;
+
+Map<String, dynamic> _$MShippingItemToJson(MShippingItem instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'shipping_code': instance.shippingCode,
+      'list_order_id': instance.listOrderId,
+      'warehouse_id': instance.warehouseId,
+      'delivery_type': instance.deliveryType,
+      'shipper_id': instance.shipperId,
+      'shipper_submitted_at': dtToUnix(instance.shipperSubmittedAt),
+      'shipper_confirmed_at': dtToUnix(instance.shipperConfirmedAt),
+      'payment_method_id': instance.paymentMethodId,
+      'total_money': instance.totalMoney,
+      'created_at': dtToUnix(instance.createdAt),
+      'updated_at': dtToUnix(instance.updatedAt),
+      'shipper_phone_number': instance.shipperPhoneNumber,
+      'shipper_display_name': instance.shipperName,
+      'manager_confirm': instance.managerConfirm,
+      'shipper_confirm': instance.shipperConfirm,
+    };

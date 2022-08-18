@@ -1,0 +1,37 @@
+// **************************************************************************
+// CopyWithGenerator
+// **************************************************************************
+
+extension MProductListItemCopyWith on MProductListItem {
+  MProductListItem copyWith({
+    int? categoryId,
+    String? categoryName,
+    int? costPrice,
+    String? description,
+    int? id,
+    int? inventory,
+    bool? isGift,
+    String? name,
+    int? providerId,
+    String? providerName,
+    int? sellPrice,
+    int? totalQuantity,
+    String? unit,
+  }) {
+    return MProductListItem(
+      categoryId: categoryId ?? this.categoryId,
+      categoryName: categoryName ?? this.categoryName,
+      costPrice: costPrice ?? this.costPrice,
+      description: description ?? this.description,
+      id: id ?? this.id,
+      inventory: inventory ?? this.inventory,
+      isGift: isGift ?? this.isGift,
+      name: name ?? this.name,
+      providerId: providerId ?? this.providerId,
+      providerName: providerName ?? this.providerName,
+      sellPrice: sellPrice ?? this.sellPrice,
+      totalQuantity: totalQuantity ?? this.totalQuantity,
+      unit: unit ?? this.unit,
+    );
+  }
+}

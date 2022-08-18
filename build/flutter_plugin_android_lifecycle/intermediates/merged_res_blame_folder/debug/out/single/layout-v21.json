@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a73e64c1c337f83f73388046e3c83881/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a73e64c1c337f83f73388046e3c83881/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a73e64c1c337f83f73388046e3c83881/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a73e64c1c337f83f73388046e3c83881/core-1.6.0/res/layout-v21/notification_action.xml"
+    }
+]

@@ -1,0 +1,63 @@
+// **************************************************************************
+// CopyWithGenerator
+// **************************************************************************
+
+extension MUserCopyWith on MUser {
+  MUser copyWith({
+    String? address,
+    String? appleEmail,
+    String? avatar,
+    DateTime? birthday,
+    bool? createdPassword,
+    String? email,
+    String? emergencyPhone,
+    int? employeeType,
+    int? gender,
+    String? googleEmail,
+    double? height,
+    int? id,
+    bool? isSuperStaff,
+    String? name,
+    String? phone,
+    int? roleId,
+    String? roleName,
+    String? secretKey,
+    int? userType,
+    int? warehouseDistrictId,
+    int? warehouseId,
+    String? warehouseLocation,
+    String? warehouseName,
+    int? warehouseProvinceId,
+    int? warehouseWardId,
+    double? weight,
+  }) {
+    return MUser(
+      address: address ?? this.address,
+      appleEmail: appleEmail ?? this.appleEmail,
+      avatar: avatar ?? this.avatar,
+      birthday: birthday ?? this.birthday,
+      createdPassword: createdPassword ?? this.createdPassword,
+      email: email ?? this.email,
+      emergencyPhone: emergencyPhone ?? this.emergencyPhone,
+      employeeType: employeeType ?? this.employeeType,
+      gender: gender ?? this.gender,
+      googleEmail: googleEmail ?? this.googleEmail,
+      height: height ?? this.height,
+      id: id ?? this.id,
+      isSuperStaff: isSuperStaff ?? this.isSuperStaff,
+      name: name ?? this.name,
+      phone: phone ?? this.phone,
+      roleId: roleId ?? this.roleId,
+      roleName: roleName ?? this.roleName,
+      secretKey: secretKey ?? this.secretKey,
+      userType: userType ?? this.userType,
+      warehouseDistrictId: warehouseDistrictId ?? this.warehouseDistrictId,
+      warehouseId: warehouseId ?? this.warehouseId,
+      warehouseLocation: warehouseLocation ?? this.warehouseLocation,
+      warehouseName: warehouseName ?? this.warehouseName,
+      warehouseProvinceId: warehouseProvinceId ?? this.warehouseProvinceId,
+      warehouseWardId: warehouseWardId ?? this.warehouseWardId,
+      weight: weight ?? this.weight,
+    );
+  }
+}

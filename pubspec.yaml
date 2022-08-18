@@ -1,0 +1,136 @@
+name: anpha_petrol_smartgas
+description: Anpha Petrol Smart Gas
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  json_serializable: any
+  copy_with_extension: ^2.0.0
+
+  screen:
+    path: ./clone_libs/screen
+
+  # Necessary official dependencies
+  device_info:
+  shared_preferences:
+  provider: 6.0.0
+  path_provider:
+  sqflite:
+  url_launcher:
+  intl:
+  mime:
+  package_info:
+  dio:
+  equatable:
+
+  flutter_localizations:
+    sdk: flutter
+
+  # firebase
+  firebase_core: ^1.13.1
+  firebase_messaging: ^11.2.8
+  firebase_crashlytics: ^2.5.3
+  firebase_analytics: ^9.1.2
+  firebase_performance: ^0.8.0+7
+
+  http_parser:
+  flutter_html:
+  fluttertoast:
+  font_awesome_flutter:
+  sliding_sheet:
+  logger:
+  pull_to_refresh:
+  webview_flutter: 2.0.4
+  flutter_local_notifications: 9.2.0
+  flutter_speed_dial:
+  flutter_ringtone_player:
+  launch_review:
+  flutter_svg:
+  carousel_slider: ^4.0.0-nullsafety.0
+  analyzer: ^2.0.0
+  photo_view: ^0.14.0
+  cached_network_image: ^3.0.0
+  flutter_widget_from_html: ^0.6.1
+  flutter_math_fork: ^0.4.2+2
+  # -----
+  hive: ^2.0.4
+  flutter_secure_storage: ^4.2.0
+  # -----
+  # turn off this lib if using running library
+  location: ^4.3.0
+  flutter_image_compress: ^1.0.0
+  qr_code_scanner: ^0.7.0
+
+  cupertino_icons: ^1.0.2
+  dropdown_search: ^3.0.1
+
+  group_radio_button:
+    path: ./clone_libs/group-radio-button
+
+  dotted_border: ^2.0.0
+  image_picker: ^0.8.4+10
+  image_cropper: ^1.5.0
+  flutter_phone_direct_caller: ^2.1.1
+  curl_logger_dio_interceptor: ^0.0.3
+  dotted_line: ^3.1.0
+  timeline_tile:
+  fl_chart:
+  cupertino_stepper: ^0.2.1
+  open_settings: ^2.0.2
+  flutter_redux: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Necessary dev dependencies
+  build_runner: any
+  copy_with_extension_gen: ^2.0.1
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # Necessary assets
+  assets:
+    - assets/
+    - assets/localization/
+    - assets/images/
+    - assets/icons/
+    - assets/icons/bottom_nav/
+    - assets/icons/lookup/
+    - assets/data/
+
+  # Necessary fonts
+  fonts:
+    - family: Lexend
+      fonts:
+        - asset: fonts/Lexend-Black.ttf
+          weight: 900
+        - asset: fonts/Lexend-Bold.ttf
+          weight: 700
+        - asset: fonts/Lexend-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Lexend-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Lexend-Light.ttf
+          weight: 300
+        - asset: fonts/Lexend-Medium.ttf
+          weight: 500
+        - asset: fonts/Lexend-Regular.ttf
+          weight: 400
+        - asset: fonts/Lexend-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Lexend-Thin.ttf
+          weight: 100

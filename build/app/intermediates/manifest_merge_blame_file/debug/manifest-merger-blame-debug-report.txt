@@ -1,0 +1,644 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vn.speedai.smartgas"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <queries>
+16-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:9:5-28:15
+17        <intent>
+17-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:10:9-12:18
+18            <action android:name="android.media.action.IMAGE_CAPTURE" />
+18-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:11:13-73
+18-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:11:21-70
+19        </intent>
+20        <!-- If your app opens https URLs -->
+21        <intent>
+21-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:14:9-17:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:15:13-65
+22-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:15:21-62
+23
+24            <data android:scheme="https" />
+24-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:13-44
+24-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:19-41
+25        </intent>
+26        <!-- If your app makes calls -->
+27        <intent>
+27-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:19:9-22:18
+28            <action android:name="android.intent.action.DIAL" />
+28-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:20:13-65
+28-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:20:21-62
+29
+30            <data android:scheme="tel" />
+30-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:13-44
+30-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:19-41
+31        </intent>
+32        <!-- If your app checks for SMS support -->
+33        <intent>
+33-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:24:9-27:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:15:13-65
+34-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:15:21-62
+35
+36            <data android:scheme="sms" />
+36-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:13-44
+36-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:19-41
+37        </intent>
+38        <intent>
+38-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+39            <action android:name="android.media.browse.MediaBrowserService" />
+39-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+39-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+40        </intent>
+41        <intent>
+41-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+42            <action android:name="androidx.media2.session.MediaSessionService" />
+42-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+42-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+43        </intent>
+44        <intent>
+44-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+45            <action android:name="androidx.media2.session.MediaLibraryService" />
+45-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+45-->[androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+46        </intent>
+47    </queries>
+48
+49    <uses-permission android:name="android.permission.WAKE_LOCK" />
+49-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+49-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+50    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+50-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+50-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+51    <uses-permission android:name="android.permission.VIBRATE" />
+51-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+51-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+52    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+52-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+52-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+53    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+53-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+53-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+54    <uses-permission android:name="android.permission.CALL_PHONE" />
+54-->[:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-69
+54-->[:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-66
+55
+56    <uses-feature
+56-->[:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:36
+57        android:name="android.hardware.telephony"
+57-->[:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-50
+58        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+58-->[:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-33
+59    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+59-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+59-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+60    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+60-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+60-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+61    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+61-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+61-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+62    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+63    <uses-feature
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+64        android:name="android.hardware.camera"
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+65        android:required="false" />
+65-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+66    <uses-feature
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+67        android:name="android.hardware.camera.front"
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+68        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+68-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+69    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+70    <uses-feature
+70-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+71        android:name="android.hardware.camera.autofocus"
+71-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+72        android:required="false" />
+72-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+73    <uses-feature
+73-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+74        android:name="android.hardware.camera.flash"
+74-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+75        android:required="false" />
+75-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+76    <uses-feature
+76-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+77        android:name="android.hardware.screen.landscape"
+77-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+78        android:required="false" />
+78-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+79    <uses-feature
+79-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+80        android:name="android.hardware.wifi"
+80-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+81        android:required="false" /> <!-- <uses-feature android:name="android.hardware.location.gps" /> -->
+81-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+82    <application
+83        android:name="android.app.Application"
+83-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:33:9-42
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:24:18-86
+85        android:debuggable="true"
+86        android:icon="@mipmap/ic_launcher"
+86-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:34:9-43
+87        android:label="SmartGas App"
+87-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:35:9-37
+88        android:usesCleartextTraffic="true" >
+88-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:36:9-44
+89        <activity
+89-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:37:9-61:20
+90            android:name="vn.speedai.smartgas.MainActivity"
+90-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:38:13-41
+91            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+91-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:39:13-163
+92            android:exported="true"
+92-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:40:13-36
+93            android:hardwareAccelerated="true"
+93-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:41:13-47
+94            android:launchMode="singleTop"
+94-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:42:13-43
+95            android:theme="@style/LaunchTheme"
+95-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:43:13-47
+96            android:windowSoftInputMode="adjustResize" >
+96-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:44:13-55
+97
+98            <!--
+99                 Specifies an Android theme to apply to this Activity as soon as
+100                 the Android process has started. This theme is visible to the user
+101                 while the Flutter UI initializes. After that, this theme continues
+102                 to determine the Window background behind the Flutter UI.
+103            -->
+104            <meta-data
+104-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:49:13-51:57
+105                android:name="io.flutter.embedding.android.NormalTheme"
+105-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:50:17-72
+106                android:resource="@style/NormalTheme" />
+106-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:51:17-54
+107
+108            <intent-filter>
+108-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:53:13-56:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:54:17-69
+109-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:54:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:55:17-77
+111-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:55:27-74
+112            </intent-filter>
+113            <intent-filter>
+113-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:57:13-60:29
+114                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+114-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:58:17-69
+114-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:58:25-66
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:59:17-76
+116-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:59:27-73
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:62:9-65:72
+120            android:name="com.yalantis.ucrop.UCropActivity"
+120-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:63:13-60
+121            android:screenOrientation="portrait"
+121-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:64:13-49
+122            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+122-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:65:13-69
+123
+124        <meta-data
+124-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:67:9-69:60
+125            android:name="com.google.firebase.messaging.default_notification_icon"
+125-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:68:13-83
+126            android:resource="@drawable/ic_notification" />
+126-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:69:13-57
+127        <!--
+128             Don't delete the meta-data below.
+129             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+130        -->
+131        <meta-data
+131-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:72:9-74:33
+132            android:name="flutterEmbedding"
+132-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:73:13-44
+133            android:value="2" />
+133-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:74:13-30
+134        <meta-data
+134-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:76:9-78:37
+135            android:name="firebase_performance_logcat_enabled"
+135-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:77:13-63
+136            android:value="false" />
+136-->/Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:78:13-34
+137
+138        <service
+138-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+139            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+139-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+140            android:exported="false"
+140-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+142        <service
+142-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+143            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+143-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+144            android:exported="false" >
+144-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+145            <intent-filter>
+145-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+146                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+146-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+146-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+147            </intent-filter>
+148        </service>
+149
+150        <receiver
+150-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+151            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+151-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+152            android:exported="true"
+152-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+154            <intent-filter>
+154-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+155-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+156            </intent-filter>
+157        </receiver>
+158
+159        <service
+159-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:19
+160            android:name="com.google.firebase.components.ComponentDiscoveryService"
+160-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:18-89
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:54:13-37
+163            <meta-data
+163-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+164                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+164-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+166            <meta-data
+166-->[:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+167                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+167-->[:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+169            <meta-data
+169-->[:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-13:85
+170                android:name="com.google.firebase.components:io.flutter.plugins.firebase.performance.FlutterFirebaseAppRegistrar"
+170-->[:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-130
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:13:17-82
+172            <meta-data
+172-->[:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+173                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+173-->[:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-128
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+175            <meta-data
+175-->[:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+176                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+176-->[:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+179                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+179-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:23:13-25:85
+182                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+182-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:24:17-109
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:25:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:18:13-20:85
+185                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+185-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:19:17-115
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:20:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+188                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+188-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:32:13-34:85
+191                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+191-->[com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:33:17-117
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:34:17-82
+193            <meta-data
+193-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+194                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+194-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+197                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+197-->[com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:13:13-15:85
+200                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+200-->[com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:14:17-109
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:15:17-82
+202        </service>
+203
+204        <provider
+204-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+205            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+205-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+206            android:authorities="vn.speedai.smartgas.flutterfirebasemessaginginitprovider"
+206-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+207            android:exported="false"
+207-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+208            android:initOrder="99" />
+208-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+209
+210        <receiver
+210-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+211            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+211-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+212            android:exported="false" />
+212-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+213        <receiver
+213-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+214            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+214-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+215            android:exported="false" >
+215-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+216            <intent-filter>
+216-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+217                <action android:name="android.intent.action.BOOT_COMPLETED" />
+217-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+217-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+218                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+218-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+218-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+219                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+219-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+219-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+220                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+220-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+220-->[:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+221            </intent-filter>
+222        </receiver>
+223
+224        <provider
+224-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+225            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+225-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+226            android:authorities="vn.speedai.smartgas.flutter.image_provider"
+226-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+227            android:exported="false"
+227-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+228            android:grantUriPermissions="true" >
+228-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+229            <meta-data
+229-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+230                android:name="android.support.FILE_PROVIDER_PATHS"
+230-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+231                android:resource="@xml/flutter_image_picker_file_paths" />
+231-->[:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+232        </provider>
+233
+234        <activity
+234-->[:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+235            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+235-->[:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+236            android:exported="false"
+236-->[:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+237            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+237-->[:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+238
+239        <service
+239-->[:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+240            android:name="com.lyokone.location.FlutterLocationService"
+240-->[:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+241            android:enabled="true"
+241-->[:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+242            android:exported="false"
+242-->[:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+243            android:foregroundServiceType="location" />
+243-->[:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+244
+245        <uses-library
+245-->[androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+246            android:name="androidx.window.extensions"
+246-->[androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+247            android:required="false" />
+247-->[androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+248        <uses-library
+248-->[androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+249            android:name="androidx.window.sidecar"
+249-->[androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+250            android:required="false" />
+250-->[androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+251
+252        <receiver
+252-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+253            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+253-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+254            android:exported="true"
+254-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+255            android:permission="com.google.android.c2dm.permission.SEND" >
+255-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+256            <intent-filter>
+256-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+257                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+257-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+257-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+258            </intent-filter>
+259        </receiver>
+260        <!--
+261             FirebaseMessagingService performs security checks at runtime,
+262             but set to not exported to explicitly avoid allowing another app to call it.
+263        -->
+264        <service
+264-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+265            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+265-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+266            android:directBootAware="true"
+266-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+267            android:exported="false" >
+267-->[com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+268            <intent-filter android:priority="-500" >
+268-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+269                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+269-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+269-->[:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+270            </intent-filter>
+271        </service>
+272
+273        <provider
+273-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:14:9-18:39
+274            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+274-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:15:13-82
+275            android:authorities="vn.speedai.smartgas.firebaseperfprovider"
+275-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:16:13-72
+276            android:exported="false"
+276-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:17:13-37
+277            android:initOrder="101" />
+277-->[com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:18:13-36
+278        <provider
+278-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+279            android:name="com.google.firebase.provider.FirebaseInitProvider"
+279-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+280            android:authorities="vn.speedai.smartgas.firebaseinitprovider"
+280-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+281            android:directBootAware="true"
+281-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+282            android:exported="false"
+282-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+283            android:initOrder="100" />
+283-->[com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+284
+285        <activity
+285-->[com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+286            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+286-->[com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+287            android:exported="false"
+287-->[com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+288            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+288-->[com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+289
+290        <receiver
+290-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+291            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+291-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+292            android:enabled="true"
+292-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+293            android:exported="false" >
+293-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+294        </receiver>
+295
+296        <service
+296-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+297            android:name="com.google.android.gms.measurement.AppMeasurementService"
+297-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+298            android:enabled="true"
+298-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+299            android:exported="false" />
+299-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+300        <service
+300-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+301            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+301-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+302            android:enabled="true"
+302-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+303            android:exported="false"
+303-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+304            android:permission="android.permission.BIND_JOB_SERVICE" />
+304-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+305
+306        <meta-data
+306-->[com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:21:9-23:69
+307            android:name="com.google.android.gms.version"
+307-->[com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:22:13-58
+308            android:value="@integer/google_play_services_version" />
+308-->[com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:23:13-66
+309
+310        <provider
+310-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+311            android:name="androidx.startup.InitializationProvider"
+311-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+312            android:authorities="vn.speedai.smartgas.androidx-startup"
+312-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+313            android:exported="false" >
+313-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+314            <meta-data
+314-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+315                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+315-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+316                android:value="androidx.startup" />
+316-->[androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+317            <meta-data
+317-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+318                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+318-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+319                android:value="androidx.startup" />
+319-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+320        </provider>
+321
+322        <service
+322-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+323            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+323-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+324            android:exported="false" >
+324-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+325            <meta-data
+325-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+326                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+326-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+327                android:value="cct" />
+327-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+328        </service>
+329        <service
+329-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+330            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+330-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+331            android:exported="false"
+331-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+332            android:permission="android.permission.BIND_JOB_SERVICE" >
+332-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+333        </service>
+334
+335        <receiver
+335-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+336            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+336-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+337            android:exported="false" />
+337-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+338
+339        <activity
+339-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+340            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+340-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+341            android:clearTaskOnLaunch="true"
+341-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+342            android:screenOrientation="sensorLandscape"
+342-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+343            android:stateNotNeeded="true"
+343-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+344            android:theme="@style/zxing_CaptureTheme"
+344-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+345            android:windowSoftInputMode="stateAlwaysHidden" />
+345-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+346    </application>
+347
+348</manifest>

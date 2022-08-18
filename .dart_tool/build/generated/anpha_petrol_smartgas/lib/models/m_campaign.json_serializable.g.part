@@ -1,0 +1,81 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MCampaignWithCustomer _$MCampaignWithCustomerFromJson(
+        Map<String, dynamic> json) =>
+    MCampaignWithCustomer(
+      id: json['id'] as int?,
+      account: json['account'] == null
+          ? null
+          : MAccount.fromJson(json['account'] as Map<String, dynamic>),
+      accountId: json['account_id'] as int?,
+      campaign: json['campaign'] == null
+          ? null
+          : MCampaign.fromJson(json['campaign'] as Map<String, dynamic>),
+      campaignId: json['campaign_id'] as int?,
+      gifts: json['gifts'] == null
+          ? null
+          : MGiftWithCampaign.fromJson(json['gifts'] as Map<String, dynamic>),
+      level: json['level'] as int?,
+      selectedGift: json['selected_gift'] as int?,
+      status: json['status'] as int?,
+      summaryAccount: json['summary_account'] as String?,
+    );
+
+Map<String, dynamic> _$MCampaignWithCustomerToJson(
+        MCampaignWithCustomer instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'account_id': instance.accountId,
+      'account': instance.account,
+      'campaign_id': instance.campaignId,
+      'campaign': instance.campaign,
+      'gifts': instance.gifts,
+      'status': instance.status,
+      'level': instance.level,
+      'selected_gift': instance.selectedGift,
+      'summary_account': instance.summaryAccount,
+    };
+
+MCampaign _$MCampaignFromJson(Map<String, dynamic> json) => MCampaign(
+      id: json['id'] as int?,
+      title: json['title'] as String?,
+      description: json['description'] as String?,
+      cycle: json['cycle'] as int?,
+      typeCycle: json['type_cycle'] as int?,
+      typeCampaign: json['type_campaign'] as int?,
+      typeLevel: json['type_level'] as int?,
+      typeGift: json['type_gift'] as int?,
+    );
+
+Map<String, dynamic> _$MCampaignToJson(MCampaign instance) => <String, dynamic>{
+      'id': instance.id,
+      'title': instance.title,
+      'description': instance.description,
+      'cycle': instance.cycle,
+      'type_cycle': instance.typeCycle,
+      'type_campaign': instance.typeCampaign,
+      'type_level': instance.typeLevel,
+      'type_gift': instance.typeGift,
+    };
+
+MGiftWithCampaign _$MGiftWithCampaignFromJson(Map<String, dynamic> json) =>
+    MGiftWithCampaign(
+      gifts: (json['gifts'] as List<dynamic>?)
+          ?.map((e) => MGiftCampaign.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      totalDay: json['total_day'] as int?,
+      totalMoney: json['total_money'] as int?,
+      totalQuantity: json['total_quantity'] as int?,
+      valueReplace: json['value_replace'] as int?,
+    );
+
+Map<String, dynamic> _$MGiftWithCampaignToJson(MGiftWithCampaign instance) =>
+    <String, dynamic>{
+      'gifts': instance.gifts,
+      'value_replace': instance.valueReplace,
+      'total_money': instance.totalMoney,
+      'total_quantity': instance.totalQuantity,
+      'total_day': instance.totalDay,
+    };

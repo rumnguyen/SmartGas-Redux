@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">45001274477-jn56fbonihpbo62vgs8k0m3m3aovclst.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">45001274477</string>
+    <string name="google_api_key" translatable="false">AIzaSyB8lpbCDrBxLjzKB25s2H3BI65vihsSsxc</string>
+    <string name="google_app_id" translatable="false">1:45001274477:android:4c4a0004115a5d07f43b64</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB8lpbCDrBxLjzKB25s2H3BI65vihsSsxc</string>
+    <string name="google_storage_bucket" translatable="false">speedai.appspot.com</string>
+    <string name="project_id" translatable="false">speedai</string>
+</resources>

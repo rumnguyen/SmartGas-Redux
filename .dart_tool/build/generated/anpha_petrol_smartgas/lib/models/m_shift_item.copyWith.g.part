@@ -1,0 +1,19 @@
+// **************************************************************************
+// CopyWithGenerator
+// **************************************************************************
+
+extension MShiftItemCopyWith on MShiftItem {
+  MShiftItem copyWith({
+    int? endTime,
+    int? id,
+    String? name,
+    int? startTime,
+  }) {
+    return MShiftItem(
+      endTime: endTime ?? this.endTime,
+      id: id ?? this.id,
+      name: name ?? this.name,
+      startTime: startTime ?? this.startTime,
+    );
+  }
+}

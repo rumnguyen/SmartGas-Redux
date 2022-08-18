@@ -1,0 +1,49 @@
+// **************************************************************************
+// CopyWithGenerator
+// **************************************************************************
+
+extension MAccountCopyWith on MAccount {
+  MAccount copyWith({
+    int? bag,
+    int? created_at,
+    String? device_code,
+    String? display_name,
+    String? district_name,
+    int? gender,
+    int? id,
+    int? lat,
+    int? lng,
+    String? location,
+    String? phone_number,
+    String? province_name,
+    int? reward_point,
+    int? status,
+    int? total_quantity,
+    int? total_spending,
+    int? updated_at,
+    String? ward_name,
+    double? weight_available,
+  }) {
+    return MAccount(
+      bag: bag ?? this.bag,
+      created_at: created_at ?? this.created_at,
+      device_code: device_code ?? this.device_code,
+      display_name: display_name ?? this.display_name,
+      district_name: district_name ?? this.district_name,
+      gender: gender ?? this.gender,
+      id: id ?? this.id,
+      lat: lat ?? this.lat,
+      lng: lng ?? this.lng,
+      location: location ?? this.location,
+      phone_number: phone_number ?? this.phone_number,
+      province_name: province_name ?? this.province_name,
+      reward_point: reward_point ?? this.reward_point,
+      status: status ?? this.status,
+      total_quantity: total_quantity ?? this.total_quantity,
+      total_spending: total_spending ?? this.total_spending,
+      updated_at: updated_at ?? this.updated_at,
+      ward_name: ward_name ?? this.ward_name,
+      weight_available: weight_available ?? this.weight_available,
+    );
+  }
+}

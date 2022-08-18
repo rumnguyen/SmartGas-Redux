@@ -1,0 +1,18 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MShiftItem _$MShiftItemFromJson(Map<String, dynamic> json) => MShiftItem(
+      id: json['id'] as int?,
+      startTime: json['startTime'] as int?,
+      endTime: json['endTime'] as int?,
+      name: json['name'] as String?,
+    );
+
+Map<String, dynamic> _$MShiftItemToJson(MShiftItem instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'startTime': instance.startTime,
+      'endTime': instance.endTime,
+      'name': instance.name,
+    };

@@ -1,0 +1,14 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AppVersion _$AppVersionFromJson(Map<String, dynamic> json) => AppVersion(
+      actionCode: json['actionCode'] as String? ?? "",
+      newVersionAvailable: json['newVersionAvailable'] as bool? ?? false,
+    );
+
+Map<String, dynamic> _$AppVersionToJson(AppVersion instance) =>
+    <String, dynamic>{
+      'actionCode': instance.actionCode,
+      'newVersionAvailable': instance.newVersionAvailable,
+    };

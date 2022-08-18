@@ -1,0 +1,37 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MNotifications _$MNotificationsFromJson(Map<String, dynamic> json) =>
+    MNotifications(
+      id: json['id'] as int?,
+      createdAt: unixToDateTime(json['createdAt'] as int?),
+      title: json['title'] as String?,
+      message: json['message'] as String?,
+      body: json['body'] as String?,
+      action: json['action'] as String?,
+      payload: json['payload'] as String?,
+      parentUserId: json['parentUserId'] as int?,
+      actionTitle: json['actionTitle'] as String?,
+      directAction: json['directAction'] as bool?,
+      readStatus: json['readStatus'] as bool? ?? false,
+      picture: json['picture'] as String?,
+      formSetID: json['formSetID'] as int?,
+    );
+
+Map<String, dynamic> _$MNotificationsToJson(MNotifications instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'createdAt': instance.createdAt?.toIso8601String(),
+      'title': instance.title,
+      'message': instance.message,
+      'body': instance.body,
+      'action': instance.action,
+      'payload': instance.payload,
+      'parentUserId': instance.parentUserId,
+      'actionTitle': instance.actionTitle,
+      'readStatus': instance.readStatus,
+      'directAction': instance.directAction,
+      'picture': instance.picture,
+      'formSetID': instance.formSetID,
+    };

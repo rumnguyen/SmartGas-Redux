@@ -1,0 +1,59 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MDeviceHistory _$MDeviceHistoryFromJson(Map<String, dynamic> json) =>
+    MDeviceHistory(
+      id: json['id'] as int?,
+      device_id: json['device_id'] as int?,
+      device_code: json['device_code'] as String?,
+      device_status: json['device_status'] as int?,
+      staff_id: json['staff_id'] as int?,
+      status: json['status'] as int?,
+      note: json['note'] as String?,
+      task: json['task'] as int?,
+      task_code: json['task_code'] as String?,
+      account_id: json['account_id'] as int?,
+      account_code: json['account_code'] as String?,
+      account_name: json['account_name'] as String?,
+      account_phone: json['account_phone'] as String?,
+      account_address: json['account_address'] as String?,
+      staff_name: json['staff_name'] as String?,
+      staff_phone: json['staff_phone'] as String?,
+      list_image: (json['list_image'] as List<dynamic>?)
+          ?.map((e) => e as String)
+          .toList(),
+      contract_images: (json['contract_images'] as List<dynamic>?)
+          ?.map((e) => e as String)
+          .toList(),
+      updated_at: json['updated_at'] as int?,
+      created_at: json['created_at'] as int?,
+      rescheduled_date: json['rescheduled_date'] as int?,
+      failed_reason: json['failed_reason'] as int?,
+    );
+
+Map<String, dynamic> _$MDeviceHistoryToJson(MDeviceHistory instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'device_id': instance.device_id,
+      'device_code': instance.device_code,
+      'device_status': instance.device_status,
+      'staff_id': instance.staff_id,
+      'status': instance.status,
+      'note': instance.note,
+      'task': instance.task,
+      'task_code': instance.task_code,
+      'account_id': instance.account_id,
+      'account_code': instance.account_code,
+      'account_name': instance.account_name,
+      'account_phone': instance.account_phone,
+      'account_address': instance.account_address,
+      'staff_name': instance.staff_name,
+      'staff_phone': instance.staff_phone,
+      'list_image': instance.list_image,
+      'contract_images': instance.contract_images,
+      'updated_at': instance.updated_at,
+      'created_at': instance.created_at,
+      'rescheduled_date': instance.rescheduled_date,
+      'failed_reason': instance.failed_reason,
+    };

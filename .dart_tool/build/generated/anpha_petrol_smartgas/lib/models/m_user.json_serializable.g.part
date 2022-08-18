@@ -1,0 +1,67 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MUser _$MUserFromJson(Map<String, dynamic> json) => MUser(
+      id: json['id'] as int?,
+      avatar: json['avatar'] as String?,
+      email: json['email'] as String?,
+      googleEmail: json['googleEmail'] as String?,
+      appleEmail: json['appleEmail'] as String?,
+      name: json['display_name'] as String?,
+      phone: json['phone_number'] as String?,
+      emergencyPhone: json['emergencyPhone'] as String?,
+      gender: json['gender'] as int?,
+      birthday: unixToDateTime(json['birthday'] as int?),
+      address: json['address'] as String?,
+      weight: (json['weight'] as num?)?.toDouble(),
+      height: (json['height'] as num?)?.toDouble(),
+      createdPassword: json['createdPassword'] as bool?,
+      userType: json['userType'] as int?,
+      secretKey: json['secretKey'] as String?,
+      isSuperStaff: json['isSuperStaff'] as bool?,
+      employeeType: json['employeeType'] as int?,
+      warehouseDistrictId: json['warehouse_district_id'] as int?,
+      warehouseId: json['warehouse_id'] as int?,
+      warehouseLocation: json['warehouse_location'] as String?,
+      warehouseName: json['warehouse_name'] as String?,
+      warehouseProvinceId: json['warehouse_province_id'] as int?,
+      warehouseWardId: json['warehouse_ward_id'] as int?,
+      roleId: json['role_id'] as int?,
+      roleName: json['role_name'] as String?,
+    )
+      ..language = json['language'] as String?
+      ..age = json['age'] as int?
+      ..code = json['identity_card'] as String?;
+
+Map<String, dynamic> _$MUserToJson(MUser instance) => <String, dynamic>{
+      'id': instance.id,
+      'avatar': instance.avatar,
+      'email': instance.email,
+      'googleEmail': instance.googleEmail,
+      'appleEmail': instance.appleEmail,
+      'display_name': instance.name,
+      'phone_number': instance.phone,
+      'emergencyPhone': instance.emergencyPhone,
+      'gender': instance.gender,
+      'birthday': dtToUnix(instance.birthday),
+      'address': instance.address,
+      'language': instance.language,
+      'age': instance.age,
+      'identity_card': instance.code,
+      'weight': instance.weight,
+      'height': instance.height,
+      'createdPassword': instance.createdPassword,
+      'userType': instance.userType,
+      'secretKey': instance.secretKey,
+      'isSuperStaff': instance.isSuperStaff,
+      'employeeType': instance.employeeType,
+      'warehouse_id': instance.warehouseId,
+      'warehouse_name': instance.warehouseName,
+      'role_id': instance.roleId,
+      'role_name': instance.roleName,
+      'warehouse_location': instance.warehouseLocation,
+      'warehouse_ward_id': instance.warehouseWardId,
+      'warehouse_district_id': instance.warehouseDistrictId,
+      'warehouse_province_id': instance.warehouseProvinceId,
+    };

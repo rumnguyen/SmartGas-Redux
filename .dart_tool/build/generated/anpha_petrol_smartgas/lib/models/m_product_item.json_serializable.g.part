@@ -1,0 +1,32 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MProductItem _$MProductItemFromJson(Map<String, dynamic> json) => MProductItem(
+      name: json['name'] as String?,
+      code: json['code'] as String?,
+      id: json['id'] as int?,
+      price: json['price'] as int?,
+      unit: json['unit'] as String?,
+      quantity: json['quantity'] as int?,
+      category: json['category'] == null
+          ? null
+          : MCategory.fromJson(json['category'] as Map<String, dynamic>),
+      categoryId: json['category_id'] as int?,
+      costPrice: json['cost_price'] as int?,
+      sellPrice: json['sell_price'] as int?,
+    );
+
+Map<String, dynamic> _$MProductItemToJson(MProductItem instance) =>
+    <String, dynamic>{
+      'name': instance.name,
+      'code': instance.code,
+      'id': instance.id,
+      'price': instance.price,
+      'unit': instance.unit,
+      'quantity': instance.quantity,
+      'category': instance.category,
+      'category_id': instance.categoryId,
+      'cost_price': instance.costPrice,
+      'sell_price': instance.sellPrice,
+    };

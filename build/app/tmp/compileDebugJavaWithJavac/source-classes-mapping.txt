@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+vn/speedai/smartgas/BuildConfig.java
+ vn.speedai.smartgas.BuildConfig

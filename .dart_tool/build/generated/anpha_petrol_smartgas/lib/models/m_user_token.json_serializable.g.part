@@ -1,0 +1,22 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MUserToken _$MUserTokenFromJson(Map<String, dynamic> json) => MUserToken(
+      id: json['id'] as int?,
+      name: json['name'] as String?,
+      phone: json['phone'] as String?,
+      token: json['token'] as String?,
+      userType: json['userType'] as int?,
+      permission: json['p'] as String?,
+    );
+
+Map<String, dynamic> _$MUserTokenToJson(MUserToken instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'phone': instance.phone,
+      'token': instance.token,
+      'userType': instance.userType,
+      'p': instance.permission,
+    };

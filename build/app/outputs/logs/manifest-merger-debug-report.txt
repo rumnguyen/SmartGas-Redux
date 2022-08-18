@@ -1,0 +1,1160 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:32:5-79:19
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-26:19
+MERGED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8b375208c0456224889dcd27c83b4606/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8b375208c0456224889dcd27c83b4606/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:13:5-27:19
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:13:5-27:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ad5052f7205f03752f46d374b012b8ae/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ad5052f7205f03752f46d374b012b8ae/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09317151a5d28c4e319af4e83c3137a3/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09317151a5d28c4e319af4e83c3137a3/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/bcf36e92b0f9c54384ba561ffabcbee8/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/bcf36e92b0f9c54384ba561ffabcbee8/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0d401231f2a36d1e01bc31d35e739d9b/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0d401231f2a36d1e01bc31d35e739d9b/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8e77e2822812657f2d8f673203af7a51/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8e77e2822812657f2d8f673203af7a51/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/308c3d10fb7880a783f3a9804187bc69/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/308c3d10fb7880a783f3a9804187bc69/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ed941df9c96e60020a3ea8973afd4c60/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ed941df9c96e60020a3ea8973afd4c60/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/521b970c671b4876c2148a307478aa9e/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/521b970c671b4876c2148a307478aa9e/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/677c72c87270bf3fd8468a10fc05a53c/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/677c72c87270bf3fd8468a10fc05a53c/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5848aebfa4a3797ad883c17654aa9be6/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5848aebfa4a3797ad883c17654aa9be6/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:46:5-54:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:35:9-37
+	android:icon
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:34:9-43
+	android:usesCleartextTraffic
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:36:9-44
+	android:name
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:33:9-42
+manifest
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+MERGED from [:open_settings] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/open_settings/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-46:12
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:webview_flutter] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [:screen] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:path_provider_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:qr_code_scanner] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/qr_code_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_secure_storage] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:wakelock] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:just_audio] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/just_audio/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:video_player_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/video_player_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:image_cropper] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_ringtone_player] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_ringtone_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:audio_session] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/audio_session/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:launch_review] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/launch_review/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_image_compress] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/99d6c4aaef61fbd00040f892de101b66/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8b375208c0456224889dcd27c83b4606/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:3:1-29:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ad5052f7205f03752f46d374b012b8ae/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09317151a5d28c4e319af4e83c3137a3/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7363fe9f132e175a3ff55e7d210ba00/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/bcf36e92b0f9c54384ba561ffabcbee8/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0d401231f2a36d1e01bc31d35e739d9b/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8e77e2822812657f2d8f673203af7a51/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/308c3d10fb7880a783f3a9804187bc69/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ed941df9c96e60020a3ea8973afd4c60/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/521b970c671b4876c2148a307478aa9e/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/1ce2b4d3b8124ba3e2cd44aa16e72e7a/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82fb7abf58c5c8436345760357ca359a/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.yalantis:ucrop:2.2.8] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2e5944afc4af5aa0d74d59bccfe9fdc0/jetified-ucrop-2.2.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ec2bbaee5e98a2a9d1eeffa9d405db65/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/60b520aad9d9d7b4364e3a62b25bfefe/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5a5c30531b165fd53f100ddec9785b3a/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f8965f1ddec3a6ea4ece22a36659e98f/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fcaeb954590e5dc5b6a2169b29de4bf8/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5cc2e2f89c66f89def6d7623b95823c5/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/120377a869a77527ce43657e9a6a9d65/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8cb6fd2da1cea687fca62378b836825e/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/9a5342e1d0e18007b1ab629d778948d1/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8224d0d79d24bc852b72f9ebce854743/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/39b9ec5bfbe9f260201cd3debe48bafc/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fe794f01af6baf16e8371ac9005e825e/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/9d9329b9c9a895389e0b1d31b5f4e212/jetified-media2-common-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3e2646a11f3c90c4e3af614302de16de/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ea90a9d3b0cd487283031834c17ac96e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/beff0f7e575b761187e759d3405422cf/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8fba8aa7cc053ec8da2f534569183a47/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2182d1035d01375bc6d974f34a6e0514/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ead01932045ac50ae7bea632f0d131/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/cbb0a7b14217c0bdfa952107fb836753/media-1.4.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8542b5b6cf093dae590e3c095bc603ef/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8efbd5e8fadd30748265e45b2de12fa0/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/b041e495f18b6062c0fced4d036be4c7/heifwriter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/677c72c87270bf3fd8468a10fc05a53c/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/1a854dba447d358005703a5db77faf9b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/79e0ed6f502564bb2059d7b315511994/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/65d8a61475c22beb539dae91f63d6889/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3ed272abfea034ea9bdd2577c75eaa74/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/207cac6f79488d6ca3878f471ba9eb29/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/02d81ead82b33b3abaa09a6de22f3c21/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/216c8658f7572e2d8ad9108b9ae039ef/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5ea6e2cfcb16bb1c16b4efc1f61020cb/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/381de8786a1565c50b0dccc51a64f159/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/86c795c3018893cd53be9cfcb23225c8/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2d9456c1ce6053c749691b5a656fbb95/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5c98c0d277e433516115566175830c2b/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/c90ab7ba7db4ff57ebc9dc33f8587a10/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/346325c7e6bf8a7e44824ba181e8caeb/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ae82cbac5583ceb1b83a0f7d9ed5bf12/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0a607e07f1b664246948b5e134fb1f34/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/52caa287567b584f77bb9f05696366d9/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/92d03e6f9497dfab7b4337d64ad77def/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/feb3daef69f059b1fa0dd59fdc4456d0/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/eb116a5c3b7048a68b33fde188e7d4f0/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5848aebfa4a3797ad883c17654aa9be6/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a2b2e82c8cda0ba1ffdb9a4265e946c4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5c33b5418c49fb4b9dd59655bb1eb9ce/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+	package
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:1-80:12
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fcaeb954590e5dc5b6a2169b29de4bf8/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fcaeb954590e5dc5b6a2169b29de4bf8/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2d9456c1ce6053c749691b5a656fbb95/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2d9456c1ce6053c749691b5a656fbb95/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:7:22-78
+queries
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:9:5-28:15
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media:media:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/cbb0a7b14217c0bdfa952107fb836753/media-1.4.1/AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/cbb0a7b14217c0bdfa952107fb836753/media-1.4.1/AndroidManifest.xml:24:5-28:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:10:9-12:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:11:21-70
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:14:9-17:18
+action#android.intent.action.VIEW
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:15:13-65
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:15:21-62
+data
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:13-44
+	android:scheme
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:16:19-41
+intent#action:name:android.intent.action.DIAL+data:scheme:tel
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:19:9-22:18
+action#android.intent.action.DIAL
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:20:21-62
+intent#action:name:android.intent.action.VIEW+data:scheme:sms
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:24:9-27:18
+uses-sdk
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+MERGED from [:open_settings] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/open_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:open_settings] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/open_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:screen] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:screen] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:path_provider_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:qr_code_scanner] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/qr_code_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:67
+MERGED from [:qr_code_scanner] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/qr_code_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:67
+MERGED from [:flutter_secure_storage] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:flutter_secure_storage] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:wakelock] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/wakelock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/just_audio/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/just_audio/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/video_player_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/video_player_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_ringtone_player] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_ringtone_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_ringtone_player] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_ringtone_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/audio_session/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/audio_session/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:launch_review] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/launch_review/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:launch_review] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/launch_review/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_image_compress] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:55
+MERGED from [:flutter_image_compress] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_image_compress/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:55
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/99d6c4aaef61fbd00040f892de101b66/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/99d6c4aaef61fbd00040f892de101b66/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8b375208c0456224889dcd27c83b4606/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8b375208c0456224889dcd27c83b4606/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ad5052f7205f03752f46d374b012b8ae/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ad5052f7205f03752f46d374b012b8ae/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09317151a5d28c4e319af4e83c3137a3/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09317151a5d28c4e319af4e83c3137a3/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7363fe9f132e175a3ff55e7d210ba00/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7363fe9f132e175a3ff55e7d210ba00/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/bcf36e92b0f9c54384ba561ffabcbee8/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/bcf36e92b0f9c54384ba561ffabcbee8/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0d401231f2a36d1e01bc31d35e739d9b/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0d401231f2a36d1e01bc31d35e739d9b/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8e77e2822812657f2d8f673203af7a51/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8e77e2822812657f2d8f673203af7a51/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/308c3d10fb7880a783f3a9804187bc69/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/308c3d10fb7880a783f3a9804187bc69/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ed941df9c96e60020a3ea8973afd4c60/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ed941df9c96e60020a3ea8973afd4c60/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/521b970c671b4876c2148a307478aa9e/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/521b970c671b4876c2148a307478aa9e/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:18:5-43
+MERGED from [androidx.browser:browser:1.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/1ce2b4d3b8124ba3e2cd44aa16e72e7a/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/1ce2b4d3b8124ba3e2cd44aa16e72e7a/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82fb7abf58c5c8436345760357ca359a/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82fb7abf58c5c8436345760357ca359a/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.8] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2e5944afc4af5aa0d74d59bccfe9fdc0/jetified-ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2e5944afc4af5aa0d74d59bccfe9fdc0/jetified-ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ec2bbaee5e98a2a9d1eeffa9d405db65/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ec2bbaee5e98a2a9d1eeffa9d405db65/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/60b520aad9d9d7b4364e3a62b25bfefe/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/60b520aad9d9d7b4364e3a62b25bfefe/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5a5c30531b165fd53f100ddec9785b3a/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5a5c30531b165fd53f100ddec9785b3a/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f8965f1ddec3a6ea4ece22a36659e98f/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f8965f1ddec3a6ea4ece22a36659e98f/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fcaeb954590e5dc5b6a2169b29de4bf8/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fcaeb954590e5dc5b6a2169b29de4bf8/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5cc2e2f89c66f89def6d7623b95823c5/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5cc2e2f89c66f89def6d7623b95823c5/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/120377a869a77527ce43657e9a6a9d65/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/120377a869a77527ce43657e9a6a9d65/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8cb6fd2da1cea687fca62378b836825e/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8cb6fd2da1cea687fca62378b836825e/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/9a5342e1d0e18007b1ab629d778948d1/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/9a5342e1d0e18007b1ab629d778948d1/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8224d0d79d24bc852b72f9ebce854743/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8224d0d79d24bc852b72f9ebce854743/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/39b9ec5bfbe9f260201cd3debe48bafc/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/39b9ec5bfbe9f260201cd3debe48bafc/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fe794f01af6baf16e8371ac9005e825e/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fe794f01af6baf16e8371ac9005e825e/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/9d9329b9c9a895389e0b1d31b5f4e212/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/9d9329b9c9a895389e0b1d31b5f4e212/jetified-media2-common-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3e2646a11f3c90c4e3af614302de16de/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3e2646a11f3c90c4e3af614302de16de/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ea90a9d3b0cd487283031834c17ac96e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ea90a9d3b0cd487283031834c17ac96e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/beff0f7e575b761187e759d3405422cf/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/beff0f7e575b761187e759d3405422cf/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8fba8aa7cc053ec8da2f534569183a47/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8fba8aa7cc053ec8da2f534569183a47/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2182d1035d01375bc6d974f34a6e0514/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2182d1035d01375bc6d974f34a6e0514/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ead01932045ac50ae7bea632f0d131/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ead01932045ac50ae7bea632f0d131/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/cbb0a7b14217c0bdfa952107fb836753/media-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/cbb0a7b14217c0bdfa952107fb836753/media-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/589ccfd7632c78d9c623904ff295897d/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8542b5b6cf093dae590e3c095bc603ef/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8542b5b6cf093dae590e3c095bc603ef/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8efbd5e8fadd30748265e45b2de12fa0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8efbd5e8fadd30748265e45b2de12fa0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/b041e495f18b6062c0fced4d036be4c7/heifwriter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/b041e495f18b6062c0fced4d036be4c7/heifwriter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/677c72c87270bf3fd8468a10fc05a53c/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/677c72c87270bf3fd8468a10fc05a53c/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/1a854dba447d358005703a5db77faf9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/1a854dba447d358005703a5db77faf9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/79e0ed6f502564bb2059d7b315511994/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/79e0ed6f502564bb2059d7b315511994/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/65d8a61475c22beb539dae91f63d6889/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/65d8a61475c22beb539dae91f63d6889/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3ed272abfea034ea9bdd2577c75eaa74/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3ed272abfea034ea9bdd2577c75eaa74/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/207cac6f79488d6ca3878f471ba9eb29/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/207cac6f79488d6ca3878f471ba9eb29/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/02d81ead82b33b3abaa09a6de22f3c21/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/02d81ead82b33b3abaa09a6de22f3c21/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/216c8658f7572e2d8ad9108b9ae039ef/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/216c8658f7572e2d8ad9108b9ae039ef/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5ea6e2cfcb16bb1c16b4efc1f61020cb/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5ea6e2cfcb16bb1c16b4efc1f61020cb/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/381de8786a1565c50b0dccc51a64f159/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/381de8786a1565c50b0dccc51a64f159/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/86c795c3018893cd53be9cfcb23225c8/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/86c795c3018893cd53be9cfcb23225c8/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2d9456c1ce6053c749691b5a656fbb95/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/2d9456c1ce6053c749691b5a656fbb95/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5c98c0d277e433516115566175830c2b/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5c98c0d277e433516115566175830c2b/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/c90ab7ba7db4ff57ebc9dc33f8587a10/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/c90ab7ba7db4ff57ebc9dc33f8587a10/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/346325c7e6bf8a7e44824ba181e8caeb/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/346325c7e6bf8a7e44824ba181e8caeb/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ae82cbac5583ceb1b83a0f7d9ed5bf12/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ae82cbac5583ceb1b83a0f7d9ed5bf12/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0a607e07f1b664246948b5e134fb1f34/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0a607e07f1b664246948b5e134fb1f34/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/52caa287567b584f77bb9f05696366d9/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/52caa287567b584f77bb9f05696366d9/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/92d03e6f9497dfab7b4337d64ad77def/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/92d03e6f9497dfab7b4337d64ad77def/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/feb3daef69f059b1fa0dd59fdc4456d0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/feb3daef69f059b1fa0dd59fdc4456d0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/eb116a5c3b7048a68b33fde188e7d4f0/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/eb116a5c3b7048a68b33fde188e7d4f0/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5848aebfa4a3797ad883c17654aa9be6/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5848aebfa4a3797ad883c17654aa9be6/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a2b2e82c8cda0ba1ffdb9a4265e946c4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/a2b2e82c8cda0ba1ffdb9a4265e946c4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5c33b5418c49fb4b9dd59655bb1eb9ce/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5c33b5418c49fb4b9dd59655bb1eb9ce/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:qr_code_scanner] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/qr_code_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-64
+	android:targetSdkVersion
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml
+activity#vn.speedai.smartgas.MainActivity
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:37:9-61:20
+	android:launchMode
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:42:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:41:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:44:13-55
+	android:exported
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:40:13-36
+	android:configChanges
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:39:13-163
+	android:theme
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:43:13-47
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:38:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:49:13-51:57
+	android:resource
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:51:17-54
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:50:17-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:53:13-56:29
+action#android.intent.action.MAIN
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:55:27-74
+intent-filter#action:name:FLUTTER_NOTIFICATION_CLICK+category:name:android.intent.category.DEFAULT
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:57:13-60:29
+action#FLUTTER_NOTIFICATION_CLICK
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:58:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:59:17-76
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:59:27-73
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:62:9-65:72
+	android:screenOrientation
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:64:13-49
+	android:theme
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:65:13-69
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:63:13-60
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:67:9-69:60
+	android:resource
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:69:13-57
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:68:13-83
+meta-data#flutterEmbedding
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:72:9-74:33
+	android:value
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:74:13-30
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:73:13-44
+meta-data#firebase_performance_logcat_enabled
+ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:76:9-78:37
+	android:value
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:78:13-34
+	android:name
+		ADDED from /Users/rumnguyen/StudioProjects/smart-gas-client-app/android/app/src/main/AndroidManifest.xml:77:13-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+	android:exported
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+	android:exported
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:20:9-26:19
+MERGED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:20:9-26:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:33:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+	android:authorities
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from [:firebase_messaging] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.performance.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_performance] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_performance/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-130
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-128
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.CALL_PHONE
+ADDED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-66
+uses-feature#android.hardware.telephony
+ADDED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:flutter_phone_direct_caller] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/flutter_phone_direct_caller/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-50
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/rumnguyen/StudioProjects/smart-gas-client-app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/693b40e07df16d7f70f26c0e24bfd7bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/ff3ffb7c3a51c373e8f474cb6ea2bbf2/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/09ae066851acbda362e78fcc3deecce2/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+provider#com.google.firebase.perf.provider.FirebasePerfProvider
+ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:14:9-18:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:16:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:17:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:15:13-82
+meta-data#com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar
+ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:23:13-25:85
+	android:value
+		ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:25:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:20.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/191caa62c135a5b31889e96170a15d24/jetified-firebase-perf-20.1.0/AndroidManifest.xml:24:17-109
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/56d7fd51af320c57346c9caa12fe14db/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:19:17-115
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/35d3ec3e2a2eab305dadc1b225172646/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:21.1.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3dc5e51158bf515648f5c060813103a5/jetified-firebase-config-21.1.0/AndroidManifest.xml:33:17-117
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8a37d8993d53f54b6bb6c8e919c0c299/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/d7753a1584cfb98f52995093e347b2c5/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/8145cfa14fea678be1adc5036e30a03a/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f2be135904770e695f2765d7cce710ae/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:21.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/3357043a2b3dffa22a1dfc864e7f1996/jetified-firebase-abt-21.0.1/AndroidManifest.xml:14:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/e6ea5ae1ff2e47905706074da6342a8c/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/0cd07fddf878393d016398d4ad01c57e/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/f660be08ce81f659501e881ebff6c984/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/38c388ae407a6469045a17b7a0645ace/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.2] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/82ffa99d372e63baaefd2fc1642271a5/jetified-play-services-basement-18.0.2/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/4f56c33872d6d6082e3423477e4b8e8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/44ea8431d1bea410f5ca3b723b42ec60/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/33c455c932d94ff7ecc30b56de140686/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/28ab13a3f1136149c5ab3d0a2e2ab8e7/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/5d3a5639148030145a24aee97b738168/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/fb6007d86578997e4d297f4b114c2245/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/rumnguyen/.gradle/caches/transforms-2/files-2.1/928770b125a30547a194af427b916f6c/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74

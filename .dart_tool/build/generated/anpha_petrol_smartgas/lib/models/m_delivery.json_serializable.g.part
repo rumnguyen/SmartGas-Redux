@@ -1,0 +1,21 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MDeliveryItem _$MDeliveryItemFromJson(Map<String, dynamic> json) =>
+    MDeliveryItem(
+      createdAt: unixToDateTime(json['created_at'] as int?),
+      shipperConfirm: json['shipper_confirm'] as bool?,
+      shipperConfirmedAt: unixToDateTime(json['shipper_confirmed_at'] as int?),
+      shippingCode: json['shipping_code'] as String?,
+      managerConfirm: json['manager_confirm'] as bool?,
+    );
+
+Map<String, dynamic> _$MDeliveryItemToJson(MDeliveryItem instance) =>
+    <String, dynamic>{
+      'shipping_code': instance.shippingCode,
+      'shipper_confirm': instance.shipperConfirm,
+      'shipper_confirmed_at': dtToUnix(instance.shipperConfirmedAt),
+      'created_at': dtToUnix(instance.createdAt),
+      'manager_confirm': instance.managerConfirm,
+    };

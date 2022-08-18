@@ -1,0 +1,21 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MBannerAd _$MBannerAdFromJson(Map<String, dynamic> json) => MBannerAd(
+      id: json['id'] as int?,
+      vehicleId: json['vehicleId'] as String?,
+      vehicleName: json['vehicleName'] as String?,
+      image: json['image'] as String?,
+      action: json['action'] as String?,
+      payload: json['payload'] as String?,
+    );
+
+Map<String, dynamic> _$MBannerAdToJson(MBannerAd instance) => <String, dynamic>{
+      'id': instance.id,
+      'vehicleId': instance.vehicleId,
+      'vehicleName': instance.vehicleName,
+      'image': instance.image,
+      'action': instance.action,
+      'payload': instance.payload,
+    };

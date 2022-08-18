@@ -1,0 +1,19 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MShippingTime _$MShippingTimeFromJson(Map<String, dynamic> json) =>
+    MShippingTime(
+      id: json['id'] as int?,
+      date: unixToDateTime(json['date'] as int?),
+      shift: json['shift'] == null
+          ? null
+          : MShiftItem.fromJson(json['shift'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$MShippingTimeToJson(MShippingTime instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'date': dtToUnix(instance.date),
+      'shift': instance.shift,
+    };

@@ -1,0 +1,37 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MGift _$MGiftFromJson(Map<String, dynamic> json) => MGift(
+      productId: json['product_id'] as int?,
+      productName: json['product_name'] as String?,
+      quantity: json['quantity'] as int?,
+      unit: json['unit'] as String?,
+    );
+
+Map<String, dynamic> _$MGiftToJson(MGift instance) => <String, dynamic>{
+      'product_id': instance.productId,
+      'product_name': instance.productName,
+      'quantity': instance.quantity,
+      'unit': instance.unit,
+    };
+
+MGiftCampaign _$MGiftCampaignFromJson(Map<String, dynamic> json) =>
+    MGiftCampaign(
+      productId: json['product_id'] as int?,
+      productName: json['product_name'] as String?,
+      quantity: json['product_quantity'] as int?,
+      unit: json['product_unit'] as String?,
+      cashbackPercent: json['cashback_percent'] as int?,
+      typeCashback: json['type_cashback'] as int?,
+    );
+
+Map<String, dynamic> _$MGiftCampaignToJson(MGiftCampaign instance) =>
+    <String, dynamic>{
+      'product_id': instance.productId,
+      'product_name': instance.productName,
+      'product_quantity': instance.quantity,
+      'product_unit': instance.unit,
+      'cashback_percent': instance.cashbackPercent,
+      'type_cashback': instance.typeCashback,
+    };

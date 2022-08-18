@@ -1,0 +1,34 @@
+// **************************************************************************
+// CopyWithGenerator
+// **************************************************************************
+
+extension MProductItemCopyWith on MProductItem {
+  MProductItem copyWith({
+    int? actualDeliveryQuantity,
+    MCategory? category,
+    int? categoryId,
+    String? code,
+    int? costPrice,
+    int? id,
+    String? name,
+    int? price,
+    int? quantity,
+    int? sellPrice,
+    String? unit,
+  }) {
+    return MProductItem(
+      actualDeliveryQuantity:
+          actualDeliveryQuantity ?? this.actualDeliveryQuantity,
+      category: category ?? this.category,
+      categoryId: categoryId ?? this.categoryId,
+      code: code ?? this.code,
+      costPrice: costPrice ?? this.costPrice,
+      id: id ?? this.id,
+      name: name ?? this.name,
+      price: price ?? this.price,
+      quantity: quantity ?? this.quantity,
+      sellPrice: sellPrice ?? this.sellPrice,
+      unit: unit ?? this.unit,
+    );
+  }
+}
